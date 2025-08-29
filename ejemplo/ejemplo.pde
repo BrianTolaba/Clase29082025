@@ -12,6 +12,7 @@ void setup() {
 
 void draw() {
   background(0);
+  fill(0,0,255); // cambio de color para el segundo commit
   rect(coor.x, coor.y, alto, ancho);
 
   coor.x += speed;
